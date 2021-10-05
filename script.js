@@ -33,7 +33,8 @@ function onloadInit(){
 
 function loadGallery(flag){
 	if(!ContractObject){
-		alert("Contract not loaded, please refresh");
+		alert("Contract not loaded, please wait");
+		loadNFTContract();
 		return;
 	}
 
@@ -80,7 +81,8 @@ function loadGallery(flag){
 function loadMarket(){
 
 	if(!ContractObject){
-		alert("Contract not loaded, please wait or refresh");
+		alert("Contract not loaded, please wait");
+		loadNFTContract()
 		return;
 	}
 
