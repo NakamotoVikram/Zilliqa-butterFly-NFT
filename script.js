@@ -91,7 +91,8 @@ function loadMarket(){
 
 	mdToId = ContractState.metadata_to_id;
 	
-	galleryCode = "";
+	galleryCode = "<h2 style='width:100%' class='HVCenter'>butterFly Market</h2>";
+
 	for (i = 0;i<=0xf; i++) {
 		for (j = 0;j<=0xf; j++) {
 			if(i == j) continue;
